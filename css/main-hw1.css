@@ -42,37 +42,28 @@ div {
 
 .container {
     width: 800px;
-    height: 560px;
+    height: 200px;
     background-color: orange;
 }
 
 .header {
-    width: 100%;
-    height: 50px;
+    width: 75%;
+    height: 20%;
     background-color: aqua;
+    float: left;
 }
+
 .left-menu {
-    width: 20%;
-    height: 400px;
+    width: 75%;
+    height: 70%;
     background-color: cornflowerblue;
-    display: inline-block;
+    float: left;
     vertical-align: top;
 }
 
-.right-menu {
-    width: 80%;
-    height: 400px;
-    background-color: coral;
-    display: inline-block;
+img {
+    width: 180px;
+    height: 180px;
+    float: left;
     /* float: right; */
 }
-
-.footer {
-    width: 100%;
-    height: 100px;
-    background-color: grey;
-    /* clear: both; */
-}
-
-
-
