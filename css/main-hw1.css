@@ -47,23 +47,40 @@ div {
 }
 
 .header {
-    width: 75%;
+    width: 600px;
     height: 20%;
     background-color: aqua;
     float: left;
 }
 
 .left-menu {
-    width: 75%;
-    height: 70%;
+    width: 600px;
+    height: 75%;
     background-color: cornflowerblue;
     float: left;
-    vertical-align: top;
+    /* vertical-align: top; */
+}
+
+/* img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: auto;
+} */
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    margin-left: auto; /* This will push it to the right */
 }
 
 img {
-    width: 180px;
-    height: 180px;
-    float: left;
-    /* float: right; */
+    width: 90%; /* Width relative to its container */
+    height: auto; /* Maintain aspect ratio */
 }
